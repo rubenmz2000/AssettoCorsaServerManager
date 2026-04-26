@@ -22,7 +22,7 @@ AssettoCorsaServerManager/
 ---
 
 ## Projects
-### AssettoManager.Library
+### AssettoManager.Core
 Shared class library used by both APIs. Contains models, interfaces, and shared business logic.
 
 ### AssettoManager.LocalApi
