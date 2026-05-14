@@ -1,8 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssettoManager.LocalApi", "src\LocalApi\AssettoManager.LocalApi\AssettoManager.LocalApi.csproj", "{985CF6D7-8EF6-4F35-9FE1-D61863039329}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssettoManager.Core", "AssettoManager.Core\AssettoManager.Core.csproj", "{DA64F3DF-1264-427F-9803-A0782AF6F221}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{985CF6D7-8EF6-4F35-9FE1-D61863039329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{985CF6D7-8EF6-4F35-9FE1-D61863039329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{985CF6D7-8EF6-4F35-9FE1-D61863039329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{985CF6D7-8EF6-4F35-9FE1-D61863039329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA64F3DF-1264-427F-9803-A0782AF6F221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA64F3DF-1264-427F-9803-A0782AF6F221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA64F3DF-1264-427F-9803-A0782AF6F221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA64F3DF-1264-427F-9803-A0782AF6F221}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
